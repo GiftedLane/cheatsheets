@@ -1,4 +1,4 @@
-### Git Workflow
+### Vim Commands
 
 ```bash
 # save changes and exit
@@ -6,5 +6,5 @@
 ```
 ```bash
 # select mulitoke lines
-shift + v (then the down arrow)
+shift + v + down/up arrow
 ```
