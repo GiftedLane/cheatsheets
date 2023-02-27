@@ -6,5 +6,9 @@
 ```
 ```bash
 # select mulitoke lines
-shift + v + down/up arrow
+Press Shift+V + arrow keys
+```
+```bash
+# exit without saving changes
+:q!
 ```
