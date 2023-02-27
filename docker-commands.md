@@ -14,5 +14,5 @@ docker images -f dangling=true
 ```
 ```bash
 # DELETE dangling images that have no relationship to any tagged images
-docker image prunee
+docker image prune
 ```
