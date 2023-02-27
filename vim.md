@@ -1,6 +1,10 @@
 ### Vim Commands
 
 ```bash
+# open file in vim
+vim <filename>
+```
+```bash
 # save changes and exit
 :x
 ```
