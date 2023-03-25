@@ -1,4 +1,4 @@
-### Vim Commands
+### Linux Commands
 
 ```bash
 # force delete a non-empty directory
