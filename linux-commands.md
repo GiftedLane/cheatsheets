@@ -8,3 +8,7 @@ rm -rf directory_name
 # copy existing directory to a different directory
 cp -r source_directory destination_directory
 ```
+```bash
+# copy files to another directory
+cp -r source_fileLocation destination_fileLocation
+```
