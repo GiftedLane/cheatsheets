@@ -1,14 +1,70 @@
+## Acknowledgments
+
+**_The Legend of Zelda: Tears of the Kingdom_** was played heavily in between completing Terraform labs.
+
 ### Terraform Commands
 
 ```bash
-# force delete a non-empty directory
-rm -rf directory_name
+#check TF version
+terraform -version
 ```
 ```bash
-# copy existing directory to a different directory
-cp -r source_directory destination_directory
+#TF help
+terraform -help
 ```
 ```bash
-# copy files to another directory
-cp -r source_fileLocation destination_fileLocation
+#initialize dir for TF
+terraform init
+```
+```bash
+#view TF state file / infrastructure status
+terraform show
+```
+```bash
+#list all of the items in Terraform’s managed state
+terraform state list
+```
+```bash
+#format TF files
+terraform fmt
+```
+```bash
+#validate TF files
+terraform validate
+```
+```bash
+#TF dry-run
+terraform plan
+```
+```bash
+#save a TF plan
+terraform plan -out <plan-file-name>
+```
+```bash
+#run TF w/confirmation
+terraform apply
+```
+```bash
+#run a saved TF plan
+terraform apply <plan-file-name>
+```
+```bash
+#run TF w/o confirming
+terraform apply -auto-approve
+```
+```bash
+#destroy w/confirmation
+terraform destroy
+```
+```bash
+#destroy resources created by TF w/o confirmation
+terraform destroy -auto-approve
+```
+```bash
+#plan a destroy
+terraform plan -destroy
+```
+```bash
+#save destroy plan
+terraform plan -destroy -out <plan-file-name>
 ```
