@@ -5,6 +5,22 @@
 ### Terraform Commands
 
 ```bash
+#install TF
+#Homebrew
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+
+#Linux
+yum-config-manager --add-repo https://rpm.releases.hashicorp.com/hashicorp/stable/rhel/7
+yum install terraform
+```
+```bash
+#update Terraform
+#Homebrew
+brew update
+brew upgrade hashicorp/tap/terraform
+```
+```bash
 #check TF version
 terraform -version
 ```
