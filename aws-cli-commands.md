@@ -40,3 +40,7 @@ _# spit out the `aws ssm put-parameter` command (withOUT Key IDs) in terminal_
 ```swift
 cat ssm-params.json | jq -r '.Parameters[] | "aws ssm put-parameter --name \"" + .Name + "\" --type \"" + .Type + "\" --value \"" + .Value + "\"\(.KeyId | select(. == null) | " --key-id \"" + . + "\"")"'
 ```
+```shell
+# navigate to AWS config location
+cd ~/.aws
+```
