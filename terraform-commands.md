@@ -41,6 +41,10 @@ terraform show
 terraform providers
 ```
 ```bash
+#mirror TF providers
+terraform providers mirror
+```
+```bash
 #list all of the items in Terraform’s managed state
 terraform state list
 ```
