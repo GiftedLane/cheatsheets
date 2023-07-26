@@ -37,6 +37,10 @@ terraform init
 terraform show
 ```
 ```bash
+#view TF providers
+terraform providers
+```
+```bash
 #list all of the items in Terraform’s managed state
 terraform state list
 ```
