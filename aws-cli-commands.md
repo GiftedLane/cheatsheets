@@ -7,8 +7,10 @@
 - [Install AWS CLI](#install)
 - [Help Command](#help-command)
 - [Configure AWS CLI](#configure-aws-cli)
-- [SSM Parameters](#ssm-parameters)
 - [View Commands](#view-commands)
+- [IAM Commands](#iam-commands)
+- [SSM Parameters](#ssm-parameters)
+- [Resources](#resources)
 
 # AWS CLI Commands
 
@@ -45,6 +47,21 @@ aws configure
 ```bash
 #view AWS CLI version
 aws --version
+```
+
+```bash
+#list all IAM Users
+aws iam list-users
+
+#using the endpoint option
+aws --endpoint http://aws:4566 iam list-users
+```
+
+### IAM Commands
+
+```bash
+#create new user
+aws iam create-user --user-name mipha
 ```
 
 ### SSM Parameters
