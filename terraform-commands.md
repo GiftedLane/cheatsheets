@@ -1,5 +1,5 @@
 <div style="background-color: #f9f9f9; border-left: 6px solid #3f51b5; padding: 0.5em;">
-  🎮 **The Legend of Zelda: Tears of the Kingdom**: was played heavily between completing Terraform labs.
+  🎮 <strong>The Legend of Zelda: Tears of the Kingdom</strong>: <em>was played heavily between completing Terraform labs.</em>
 </div>
 
 ## Table of Contents
