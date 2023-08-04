@@ -1,14 +1,12 @@
-## Acknowledgments
-
-**_The Legend of Zelda: Tears of the Kingdom_** was played heavily in between completing Terraform labs.
+<div style="background-color: #f9f9f9; border-left: 6px solid #3f51b5; padding: 0.5em;">
+  🎮 **The Legend of Zelda: Tears of the Kingdom**: was played heavily between completing Terraform labs.
+</div>
 
 ## Table of Contents
 
 - [Install Terraform](#install)
 - [Initialization](#initialization)
 - [Resources](#resources)
-
-### Terraform Commands
 
 ## Install
 
