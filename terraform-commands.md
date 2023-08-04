@@ -11,6 +11,7 @@
 - [Plan](#plan)
 - [Apply](#apply)
 - [Destroy](#destroy)
+- [Terraform with AWS](#Terraform-with-AWS)
 - [Resources](#resources)
 
 ## Install
@@ -120,6 +121,9 @@ terraform plan -destroy
 #save destroy plan
 terraform plan -destroy -out <plan-file-name>
 ```
+
+## Terraform with AWS
+
 
 ## Resources
 
