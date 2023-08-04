@@ -42,6 +42,11 @@ aws iam help
 aws configure
 ```
 
+```bash
+#navigate to config file
+cd ~/.aws
+```
+
 ### View Commands
 
 ```bash
