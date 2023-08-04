@@ -2,7 +2,19 @@
 
 **_The Legend of Zelda: Tears of the Kingdom_** was played heavily in between completing Terraform labs.
 
+## Table of Contents
+
+- [Install Terraform](#install)
+- [Initialization](#initialization)
+- [Planning](#planning)
+- [Applying Changes](#applying-changes)
+- [State Management](#state-management)
+- [Modules](#modules)
+- [Resources](#resources)
+
 ### Terraform Commands
+
+## Install
 
 ```bash
 #install TF
@@ -28,6 +40,8 @@ terraform -version
 #TF help
 terraform -help
 ```
+## Initialization
+
 ```bash
 #initialize dir for TF
 terraform init
