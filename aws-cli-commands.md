@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-- [Install Terraform](#install)
-- [Initialization](#initialization)
-- [View](#view)
+- [Install AWS CLI](#install)
+- [Configure AWS CLI](#Configure-AWS-CLI)
+- [View Commands](#View-Commands)
 - [Validate](#validate)
 - [Plan](#plan)
 - [Apply](#apply)
@@ -40,89 +40,22 @@ terraform -version
 #TF help
 terraform -help
 ```
-## Initialization
+## Configure AWS CLI
 
 ```bash
 #initialize dir for TF
 terraform init
 ```
 
-## View
+## View Commands
 
 ```bash
-#view TF state file / infrastructure status
-terraform show
-```
+#view AWS CLI version
+aws --version
 ```bash
 #view TF providers
 terraform providers
 ```
-```bash
-#mirror TF providers
-terraform providers mirror
-```
-```bash
-#list all of the items in Terraform’s managed state
-terraform state list
-```
-
-## Validate
-
-```bash
-#format TF files
-terraform fmt
-```
-```bash
-#validate TF files
-terraform validate
-```
-
-## Plan
-
-```bash
-#TF dry-run
-terraform plan
-```
-```bash
-#save a TF plan
-terraform plan -out <plan-file-name>
-```
-
-## Apply
-
-```bash
-#run TF w/confirmation
-terraform apply
-```
-```bash
-#run a saved TF plan
-terraform apply <plan-file-name>
-```
-```bash
-#run TF w/o confirming
-terraform apply -auto-approve
-```
-
-## Destroy
-
-```bash
-#destroy w/confirmation
-terraform destroy
-```
-```bash
-#destroy resources created by TF w/o confirmation
-terraform destroy -auto-approve
-```
-```bash
-#plan a destroy
-terraform plan -destroy
-```
-```bash
-#save destroy plan
-terraform plan -destroy -out <plan-file-name>
-```
-
-## Terraform with AWS
 
 
 ## Resources
