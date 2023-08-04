@@ -6,6 +6,7 @@
 
 - [Install Terraform](#install)
 - [Initialization](#initialization)
+- [Resources](#resources)
 
 ### Terraform Commands
 
@@ -101,3 +102,12 @@ terraform plan -destroy
 #save destroy plan
 terraform plan -destroy -out <plan-file-name>
 ```
+
+## Resources
+
+- [Terraform Official Documentation](https://www.terraform.io/docs/index.html)
+- [Getting Started Guide](https://www.terraform.io/intro/index.html)
+- [Terraform Registry (Modules & Providers)](https://registry.terraform.io/)
+- [Community Forums and Support](https://discuss.hashicorp.com/c/terraform-core/27)
+
+---
