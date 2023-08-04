@@ -5,6 +5,7 @@
 ### Table of Contents
 
 - [Install AWS CLI](#install)
+- [Help Command](#help-command)
 - [Configure AWS CLI](#configure-aws-cli)
 - [SSM Parameters](#ssm-parameters)
 - [View Commands](#view-commands)
@@ -23,6 +24,13 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin
 ```bash
 # Using pip:
 sudo pip3 install awscli
+```
+
+### Help Command
+
+```shell
+#iam help
+aws iam help
 ```
 
 ### Configure AWS CLI
