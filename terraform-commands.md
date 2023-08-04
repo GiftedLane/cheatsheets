@@ -6,6 +6,11 @@
 
 - [Install Terraform](#install)
 - [Initialization](#initialization)
+- [View](#view)
+- [Validate](#validate)
+- [Plan](#plan)
+- [Apply](#apply)
+- [Destroy](#destroy)
 - [Resources](#resources)
 
 ## Install
@@ -40,6 +45,9 @@ terraform -help
 #initialize dir for TF
 terraform init
 ```
+
+## View
+
 ```bash
 #view TF state file / infrastructure status
 terraform show
@@ -56,6 +64,9 @@ terraform providers mirror
 #list all of the items in Terraform’s managed state
 terraform state list
 ```
+
+## Validate
+
 ```bash
 #format TF files
 terraform fmt
@@ -64,6 +75,9 @@ terraform fmt
 #validate TF files
 terraform validate
 ```
+
+## Plan
+
 ```bash
 #TF dry-run
 terraform plan
@@ -72,6 +86,9 @@ terraform plan
 #save a TF plan
 terraform plan -out <plan-file-name>
 ```
+
+## Apply
+
 ```bash
 #run TF w/confirmation
 terraform apply
@@ -84,6 +101,9 @@ terraform apply <plan-file-name>
 #run TF w/o confirming
 terraform apply -auto-approve
 ```
+
+## Destroy
+
 ```bash
 #destroy w/confirmation
 terraform destroy
