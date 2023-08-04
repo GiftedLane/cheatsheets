@@ -5,46 +5,30 @@
 ## Table of Contents
 
 - [Install AWS CLI](#install)
-- [Configure AWS CLI](#Configure-AWS-CLI)
-- [View Commands](#View-Commands)
-- [Validate](#validate)
-- [Plan](#plan)
-- [Apply](#apply)
-- [Destroy](#destroy)
-- [Terraform with AWS](#Terraform-with-AWS)
-- [Resources](#resources)
+- [Configure AWS CLI](#configure-aws-cli)
+- [View Commands](#view-commands)
 
 ## Install
 
-```bash
-#install TF
-#Homebrew
-brew tap hashicorp/tap
-brew install hashicorp/tap/terraform
+#### Using the bundled installer:
 
-#Linux
-yum-config-manager --add-repo https://rpm.releases.hashicorp.com/hashicorp/stable/rhel/7
-yum install terraform
-```
 ```bash
-#update Terraform
-#Homebrew
-brew update
-brew upgrade hashicorp/tap/terraform
+#install aws cli (bundled version)
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o awscli-exe-linux-x86_64.zip
+unzip awscli-exe-linux-x86_64.zip
+sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin
 ```
+#### Using pip:
+
 ```bash
-#check TF version
-terraform -version
+sudo pip3 install awscli
 ```
-```bash
-#TF help
-terraform -help
-```
+
 ## Configure AWS CLI
 
 ```bash
-#initialize dir for TF
-terraform init
+#configure aws cli
+aws configure
 ```
 
 ## View Commands
@@ -52,17 +36,12 @@ terraform init
 ```bash
 #view AWS CLI version
 aws --version
-```bash
-#view TF providers
-terraform providers
 ```
 
 
 ## Resources
 
-- [Terraform Official Documentation](https://www.terraform.io/docs/index.html)
-- [Getting Started Guide](https://www.terraform.io/intro/index.html)
-- [Terraform Registry (Modules & Providers)](https://registry.terraform.io/)
-- [Community Forums and Support](https://discuss.hashicorp.com/c/terraform-core/27)
+- [AWS CLI Getting Started Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)
 
 ---
