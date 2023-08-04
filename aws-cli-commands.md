@@ -40,7 +40,7 @@ aws --version
 ```
 
 ### SSM Parameters
-----
+
 _# Sample AWS SSM parameter JSON file_
 ```json
 {
