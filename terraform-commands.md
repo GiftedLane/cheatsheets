@@ -6,11 +6,6 @@
 
 - [Install Terraform](#install)
 - [Initialization](#initialization)
-- [Planning](#planning)
-- [Applying Changes](#applying-changes)
-- [State Management](#state-management)
-- [Modules](#modules)
-- [Resources](#resources)
 
 ### Terraform Commands
 
